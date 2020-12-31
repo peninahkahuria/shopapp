@@ -1,0 +1,139 @@
+
+img{
+  display:inline-block;
+}
+.product-info{
+  display: inline-block;
+  text-align: center;
+}
+.product-card{
+  display: inline-flex;
+  padding: 50px;
+  padding-top: 50px;
+  padding-right: 50px;
+}
+
+h1{
+  padding: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+body {
+  margin: 0;
+  font-family:serif;
+  background-color: #C0C0C0;
+}
+
+  .topnav {
+    overflow: hidden;
+    background-color:teal;
+    height: 150px;
+    padding-left: 190px;
+  }
+  .topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align:center;
+     padding: 10px 5px;  
+    padding-left: 50px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .topnav input[type=text] {
+    float: right;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-right: 50px;
+    border: none;
+    font-size: 17px;
+    height: 20px;
+    width: 300px;
+    border-radius: 2%;
+  }
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+      float: none;
+      display: block;
+      width: 100%;
+      padding: 14px;
+      height: 70%;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;  
+    }
+  }
+  
+  
+    .footer{
+    margin-top:30px;
+    margin-left:5px;
+    padding-top:80px;
+    background-color: grey;
+    height: 80px;
+    width: 100%;
+    margin-top:1px;   
+    text-align: center;
+    padding-top: -50px;
+    padding-bottom: 100px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    }
+
+    .fancy-button { 
+      color: blue;
+    }
+    .fancy-button i.material-icons {
+      color: blue;
+      padding-left: 200px;
+    }
+    input[type=text], input[type=password] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+    button {
+      background-color: teal;
+      color: white;
+      padding: 8px 40px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: max-content;
+      height: 50px;
+      float: right;
+      border-radius: 5px;
+      
+    }
+    .btn{
+      background-color: teal;
+      color: white;
+      padding: 8px 40px;
+      border: none;
+      cursor: pointer;
+      width: max-content;
+      height: 30px;
+    }
+    button:hover {
+      opacity: 0.8;
+    }
+    .Login{
+      padding:70px;
+
+    }
+    
+
+  
+
+
+
+
+
+
+
